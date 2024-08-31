@@ -47,6 +47,23 @@ module.exports = (theme) => ({
                 },
                 // #endregion
 
+                '[class~="kg-button-card"]': {
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    background: 'none',
+                },
+
+                '[class~="kg-btn"]': {
+                    backgroundColor: '#FF1A75',
+                    borderRadius: theme('borderRadius.lg'),
+                    padding: '0.5rem 1rem',
+                },
+
+                '[class~="kg-button-card"] a': {
+                    color: 'white',
+                },
+
                 // #region image
                 '[class~="kg-image-card"]': {
                     textAlign: 'center',
