@@ -82,8 +82,8 @@ module.exports = (theme) => ({
                 '[class~="kg-gallery-card"] figcaption': {
                     padding: theme('spacing.3'),
                     textAlign: 'center',
-                    fontSize: theme('fontSize.sm'),
-                    color: theme('colors.')
+                    fontSize: theme('fontSize.sm')[0],
+                    color: theme('colors.gray.500'),
                 },
 
                 '[class~="kg-card"] [class~="kg-gallery-container"] [class~="kg-gallery-row"]': {
